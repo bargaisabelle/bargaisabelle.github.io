@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>Financial Calculator</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="main.js"></script>
+  </head>
+
+	<body>
+	  <header>
+		<h1>Financial Calculator</h1>
+	  </header>
+	  <nav>
+		<ul>
+			<li><a href="login.html">Login/Signup</li></a>
+			<li><a href="pages/subtopic2.html">Stocks</li></a>
+			<li><a href="index.html">Financial Calculator</li></a>
+			
+		</ul>
+	  </nav>
+	  <main>
+		<form action="index.html" method="get" id="makebudget" name="makebudget">
+		<label for="incomeLabel">Enter your average monthly income:</label>
+		<span></span><br>
+	    <input type="text" id="income">
+		<span></span><br>
+		<input type="button" id="budgetbtn" name="budgetbtn" value="Make a budget">
+		<span></span><br>
+		<!-- <button name="budgetbtn" id="budgetbtn" onclick="addmorestuff(this); return false; ">Make a budget</button> -->
+		
+		<!--
+		<script>
+			function addmorestuff(budgetbtn) {
+				//document.getElementById("budgetbtn");
+				document.write("test");
+				var income = document.getElementById("income").value;
+				var homebudget = parseFloat(.3);
+				document.write("budget:" + homebudget);
+			}
+		</script>
+	-->
+		<!-- <form action="index.html">
+			<button onclick="addMoreStuff(this); return false; ">More Options</button>
+		</form>
+
+		<script type="text/javascript">
+			function addMoreStuff(button) {
+    		/* your code here */
+			document.write("printing a budget");
+			
+			//print your budget: window.print("print a budget");
+		}
+		</script> -->
+		<p>Here is your monthly budget:</p>
+		</form>
+	  </main>
+	  <aside>
+		<p>for 4110</p>
+	  </aside>
+	  <footer>
+		<p>&copy; Financial Planner Website</p>
+	  </footer>
+	</body>
+  
+</html>
